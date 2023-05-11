@@ -1,0 +1,13 @@
+<?php
+
+/** @var SignIn $block */
+use Awesoft\GoogleSignIn\Block\Adminhtml\Button\SignIn;
+
+?>
+<?php if ($block->isEnabled()): ?>
+    <div style="margin-top: 2rem">
+        <a href="<?php echo($block->getLoginUrl()); ?>">
+            <img src="<?php echo $block->getImageUrl(); ?>" alt="Sign in with Google"/>
+        </a>
+    </div>
+<?php endif; ?>

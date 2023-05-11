@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+  <default>
+    <awesoft>
+      <google_signin>
+        <client_id/>
+        <client_secret/>
+        <hosted_domain/>
+        <customer_enabled>0</customer_enabled>
+        <admin_enabled>0</admin_enabled>
+        <admin_hosted_domains/>
+        <admin_enable_user_creation>0</admin_enable_user_creation>
+        <admin_user_roles/>
+      </google_signin>
+    </awesoft>
+  </default>
+</config>

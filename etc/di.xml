@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Awesoft\GoogleSignIn\Api\Service\AuthenticationManagerInterface"
+                type="Awesoft\GoogleSignIn\Service\AuthenticationManager"/>
+    <preference for="Awesoft\GoogleSignIn\Api\Service\ExceptionManagerInterface"
+                type="Awesoft\GoogleSignIn\Service\ExceptionManager"/>
+    <preference for="Awesoft\GoogleSignIn\Api\Helper\ConfigInterface"
+                type="Awesoft\GoogleSignIn\Helper\Config"/>
+    <preference for="Awesoft\GoogleSignIn\Api\Helper\AdminUserInterface"
+                type="Awesoft\GoogleSignIn\Helper\AdminUser"/>
+    <preference for="Awesoft\GoogleSignIn\Api\Helper\UserRoleInterface"
+                type="Awesoft\GoogleSignIn\Helper\UserRole"/>
+    <preference for="Awesoft\GoogleSignIn\Api\Helper\StateInterface"
+                type="Awesoft\GoogleSignIn\Helper\State"/>
+</config>
